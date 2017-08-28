@@ -9,18 +9,18 @@ This is the documentation for the AskSteem Search API the fastest and most power
 way to search the blockchain.
 
 Getting Started
----------------
+===============
 .. toctree::
    :maxdepth: 2
 
 What is AskSteem
-================
+----------------
 
 `AskSteem`_ is a powerful and fast search engine that indexes the steem
 blockchain. You can find out what AskSteem is capable of `here`_
 
 What is the AskSteem API
-========================
+------------------------
 
 The AskSteem API is a RESTful HTTP API that allows developers to
 integrate search functionality into their applications easily.
@@ -108,8 +108,8 @@ To sort results by most comments use this:
 The default value of ``order`` is ``desc`` so it can be left out like
 below: ``https://api.asksteem.com/search?q=steem&sort_by=net_votes``
 
-Restrict Search Results to App
-------------------------------
+App Filtering
+-------------
 
 While this is not a new feature of the API and was available in v1.0 and
 the standard AskSteem.com interface it was not documented. To restrict
@@ -117,7 +117,7 @@ search results to a specific app use the following query syntax:
 ``meta.app:appname AND query goes here``
 
 Parameters
-=======
+----------
 
 Here is a table to summarize the parameters of the API.
 
@@ -138,7 +138,7 @@ Here is a table to summarize the parameters of the API.
 +------------+------------------------------------------------------------+-----------+
 
 Required Attribution
-====================
+--------------------
 
 We require that all applications using the API place AskSteem branding
 on the search results page in a location that is immediately visible to
@@ -148,7 +148,7 @@ post beneficiary rewards to the @hoxly user account if applicable to
 your app.
 
 Branding Examples
-------------------
+^^^^^^^^^^^^^^^^^
 
 Here is an example of some HTML code to embed AskSteem branding:
 ``<a href="https://www.asksteem.com"><img src="https://cdn.hoxly.com/asksteem/attribution.png" width="100px"></a>``
@@ -167,6 +167,6 @@ Thank you, and happy searching!
 .. _here: https://steemit.com/steemit/@thekyle/introducing-asksteem-a-steem-search-engine
 
 Other
-==================
+-----
 
 * :ref:`genindex`
