@@ -135,14 +135,22 @@ backward-compatible with v1.0.
 Summary
 =======
 
-Here is a table to summarize the parameters of the API. \| param \|
-description \| default \| \|———\|———————————————————-\|———\| \| q \|
-takes the search term to query for. \| None \| \| pg \| takes the page
-number \| 1 \| \| include \| takes a CSV list of additional fields to
-return \| None \| \| types \| takes a CSV list of types of items to
-return (post/user) \| post \| \| sort\_by \| takes a single field to be
-used for sorting the results \| \_score \| \| order \| takes either
-``desc`` or ``asc`` \| desc \|
+Here is a table to summarize the parameters of the API.
++------------+------------------------------------------------------------+-----------+
+| param      | description                                                | default   |
++============+============================================================+===========+
+| q          | takes the search term to query for.                        | None      |
++------------+------------------------------------------------------------+-----------+
+| pg         | takes the page number                                      | 1         |
++------------+------------------------------------------------------------+-----------+
+| include    | takes a CSV list of additional fields to return            | None      |
++------------+------------------------------------------------------------+-----------+
+| types      | takes a CSV list of types of items to return (post/user)   | post      |
++------------+------------------------------------------------------------+-----------+
+| sort\_by   | takes a single field to be used for sorting the results    | \_score   |
++------------+------------------------------------------------------------+-----------+
+| order      | takes either ``desc`` or ``asc``                           | desc      |
++------------+------------------------------------------------------------+-----------+
 
 Required Attribution
 ====================
@@ -161,6 +169,7 @@ Here is an example of some HTML code to embed AskSteem branding:
 ``<a href="https://www.asksteem.com"><img src="https://cdn.hoxly.com/asksteem/attribution.png" width="100px"></a>``
 
 Preview:
+<a href="https://www.asksteem.com"><img src="https://cdn.hoxly.com/asksteem/attribution.png" width="100px"></a>
 
 Thank you, and happy searching!
 
