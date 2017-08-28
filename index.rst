@@ -5,15 +5,13 @@
 
 Welcome to AskSteem!
 ====================
-This is the documentation for the AskSteem Search API.
+This is the documentation for the AskSteem Search API the fastest and most powerful
+way to search the blockchain.
 
 Getting Started
 ---------------
 .. toctree::
    :maxdepth: 2
-
-Hello, everyone! Today I’m releasing the AskSteem API v1.1 which brings
-tons of new features for developers to play with in their apps.
 
 What is AskSteem
 ================
@@ -25,14 +23,7 @@ What is the AskSteem API
 ========================
 
 The AskSteem API is a RESTful HTTP API that allows developers to
-integrate search functionality into their applications easily. To learn
-more about the AskSteem API v1.0 read `this post`_.
-
-Whats New
-=========
-
-The AskSteem API v1.1 brings loads of new functionality that has been
-requested by developers.
+integrate search functionality into their applications easily.
 
 Includes
 --------
@@ -125,14 +116,7 @@ the standard AskSteem.com interface it was not documented. To restrict
 search results to a specific app use the following query syntax:
 ``meta.app:appname AND query goes here``
 
-How to Upgrade
-==============
-
-If you used the AskSteem API v1.0 in your app then you have already been
-transitioned to using this new version. The AskSteem API v1.1 is fully
-backward-compatible with v1.0.
-
-Summary
+Parameters
 =======
 
 Here is a table to summarize the parameters of the API.
@@ -163,20 +147,24 @@ reliability and uptime we request that you send between 1% and 2% of
 post beneficiary rewards to the @hoxly user account if applicable to
 your app.
 
-Branding Examples:
+Branding Examples
 ------------------
 
 Here is an example of some HTML code to embed AskSteem branding:
 ``<a href="https://www.asksteem.com"><img src="https://cdn.hoxly.com/asksteem/attribution.png" width="100px"></a>``
 
 Preview:
-<a href="https://www.asksteem.com"><img src="https://cdn.hoxly.com/asksteem/attribution.png" width="100px"></a>
+
+|image0|
+
+.. |image0| image:: https://cdn.hoxly.com/asksteem/attribution.png
+   :width: 100px
+   :target: https://www.asksteem.com
 
 Thank you, and happy searching!
 
 .. _AskSteem: https://www.asksteem.com
 .. _here: https://steemit.com/steemit/@thekyle/introducing-asksteem-a-steem-search-engine
-.. _this post: https://steemit.com/asksteem/@thekyle/asksteem-search-api-docs
 
 Other
 ==================
