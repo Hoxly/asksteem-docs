@@ -49,3 +49,9 @@ The `search` endpoint also accepts a `pg` parameter to select the page of result
 
 For example:
 `https://api.asksteem.com/search?q=asksteem&pg=2` would return the second page of results for the term "asksteem".
+
+Some other parameters for the search endpoint are:
+* `include` - to include additional fields for each search result
+* `sort_by` - to sort the search results by a specific field
+* `order` - used in combination with `sort_by` to determine how the specified field should be sorted (`asc` or `desc`)
+* `types` - used to specify the types of content to be included in results (`user` and/or `post`)
