@@ -45,7 +45,7 @@ Here is a sample response:
 }
 ```
 
-The `search` endpoint also accepts a `pg` parameter to select the page of results to return. By if not provided the page will default to 1 and for any given query there is a max of 10 pages that can be returned. 
+The `search` endpoint also accepts a `pg` parameter to select the page of results to return. If not provided the page will default to 1 and for any given query there is a max of 10 pages that can be returned. 
 
 For example:
 `https://api.asksteem.com/search?q=asksteem&pg=2` would return the second page of results for the term "asksteem".
